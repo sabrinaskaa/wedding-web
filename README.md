@@ -8,7 +8,7 @@
    $ git clone https://github.com/sabrinaskaa/wedding-web.git
    $ cd wedding-web/wedding
    $ npm install
-    ``` 
+``` 
 
 <h1>3. Run the Code</h1>
 On wedding-web/wedding terminal, run this :
@@ -33,5 +33,5 @@ Create Database :
 ![image](https://user-images.githubusercontent.com/70563202/158966152-fba7b2a0-bf1d-4f40-90fb-66a673f85f3f.png)
 ![image](https://user-images.githubusercontent.com/70563202/158966506-741b5cf9-856b-4592-8ac1-4e427cdc8d27.png)
 
-Thanks :)
+Thanks :) <br/>
 Created by Sabrina Aska Amalina
