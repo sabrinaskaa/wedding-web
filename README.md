@@ -25,7 +25,7 @@ On wedding-web/mern-stack-api terminal, run this :
 
 <h1>4. Mongodb Compass</h1>
 Connect your mongdb compass : <br />
-![Screenshot 2022-03-18 153936](https://user-images.githubusercontent.com/70563202/158966835-76c638f3-3aeb-483b-828a-244f7c6f2514.png)
+![image](https://user-images.githubusercontent.com/70563202/158968129-6d5acee6-21bd-45c1-80b2-278959b806f0.png)
 <br/>
 <br/>
 
