@@ -3,11 +3,12 @@
 <h1>1. Install Git & Mongodb</h1>
 
 <h1>2. Get the Code</h1>
+
 ```bash
    $ git clone https://github.com/sabrinaskaa/wedding-web.git
    $ cd wedding-web/wedding
    $ npm install
-```
+    ``` 
 
 <h1>3. Run the Code</h1>
 On wedding-web/wedding terminal, run this :
