@@ -1,0 +1,141 @@
+.cardContainer{
+    position: relative;
+    width: 150px;
+    background-color: #fff;
+    margin-right: 16px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 5%);
+    margin-bottom: 2.5rem;
+}
+.productImg{
+    width: 150px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 7px 7px 0 0;
+}
+.productContent, .productRow{
+    display: flex;
+    flex-direction: column;
+}
+
+.rowProduct{
+    height: 110%;
+    padding: 8px 16px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: row;
+}
+
+.rowProduct::-webkit-scrollbar{
+    height: 1px;
+}
+
+.rowProduct::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.productRow{
+    padding: 16px;
+    object-fit: cover;
+    border-radius: 0 0 7px 7px;
+    justify-content: space-between;
+}
+
+.dataName{
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dataLabel{
+    font-size: 10px;
+    height: 20px;
+    color: #CCCC;
+}
+
+.dataDiscHarga{
+    color: #252525;
+    font-size: 10px;
+    text-decoration: line-through;
+    height: 15px;
+}
+
+.dataHarga{
+    color: #25282B;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btnRow{
+    padding: 16px;
+}
+
+.btnBeli{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 167, 57);
+    height: 28px;
+    display: flex;
+    font-size: 13px !important;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: none;
+    justify-content: center;
+    border: none;
+}
+
+.qtyContainer{
+    justify-content: center;
+    width: -webkit-fill-available;
+    display: inline-flex;
+    border-radius: 4px;
+}
+
+.handleMinus{
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    max-width: 28px;
+    min-width: 28px;
+    max-height: 28px;
+    min-height: 28px;
+    border: 1px solid silver;
+    font-weight: 700;
+    cursor: pointer;
+}
+.quantity{
+    border: 0px;
+    font-weight: 800;
+    font-size: 13px;
+    max-width: 58px;
+    min-width: 58px;
+    max-height: 28px;
+    min-height: 28px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.handlePlus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 167, 57);
+    border: 1px solid rgb(0, 167, 57);
+    border-radius: 5px;
+    max-width: 28px;
+    min-width: 28px;
+    max-height: 28px;
+    min-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.quantity:hover, .handleMinus:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+}

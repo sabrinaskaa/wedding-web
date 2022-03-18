@@ -1,0 +1,95 @@
+:root {
+  --background-color: #f7f6f2;
+  --second-background-color: #141e61;
+  --font-color: #444444;
+  --font-second-color: #f7f6f2;
+  --font-third-color: #4b6587;
+  --font-fourth-color: #f1e0ac;
+  --dots-color: #e5e5e5;
+  --line-color: #f0e5cf;
+  --placeholder-color: #9d9d9d;
+}
+
+:root {
+  --body-font: "Montserrat", sans-serif;
+  --header-font: "Montserrat", sans-serif;
+  --text-font: "Nunito", sans-serif;
+}
+
+:root {
+  --header-font-size: 60px;
+  --sec-header-font-size: 52px;
+  --middle-font-size: 20px;
+  --sec-middle-font-size: 18px;
+  --text-font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --header-font-size: 52px;
+    --sec-header-font-size: 44px;
+    --middle-font-size: 18px;
+    --sec-middle-font-size: 14px;
+    --text-font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  :root {
+    --header-font-size: 48px;
+    --sec-header-font-size: 40px;
+    --middle-font-size: 16px;
+    --sec-middle-font-size: 14px;
+    --text-font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  :root {
+    --header-font-size: 40px;
+    --sec-header-font-size: 32px;
+    --middle-font-size: 14px;
+    --sec-middle-font-size: 12px;
+    --text-font-size: 11px;
+  }
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--background-color);
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}

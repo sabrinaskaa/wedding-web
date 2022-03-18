@@ -1,0 +1,90 @@
+.containerOrder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.headerOrder{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--second-font);
+    font-size: 32px;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.rowOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subRowOrder{
+    margin: 1.5rem 0;
+    width: 49rem;
+}
+
+.contentOrder{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: start;
+    width: 15rem;
+    padding: 2rem;
+    margin: 0 2rem;
+    font-family: var(--second-font);
+}
+
+.IconOrder{
+    width: 21px;
+    height: 21px;
+}
+
+.whatsappIcons{
+    margin-right: .7rem;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.numberOrder{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: grey;
+    opacity: 50%;
+}
+
+.textHeader{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+}
+
+.textContent{
+    font-size: 12px;
+}
+
+.buttonOrdering{
+    display: inline-block;
+    border: 0;
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--main-color);
+    color: #fff;
+    font-family: var(--second-font);
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+}
+
+.buttonOrdering:hover{
+    background-color: #bfc0c0;
+    transition: .2s ease-in-out;
+}

@@ -1,0 +1,35 @@
+image: node:lts
+
+cache:
+  paths:
+  - node_modules/
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  only:
+    - netlify-gitlabci
+  environment:
+    name: production
+    url: https://next-antd-netlify.netlify.app
+  artifacts:
+    paths:
+      - build/
+  script:
+    - yarn
+    - CI="" && yarn build
+
+# deploy:
+#   stage: deploy
+#   needs: ["build"]
+  # environment:
+  #   name: production
+  #   url: https://next-antd-netlify.netlify.app
+#   only:
+#     - netlify-gitlabci
+#   script:
+    # - npm i -g netlify-cli
+    # - netlify-cli deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod

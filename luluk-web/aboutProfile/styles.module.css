@@ -1,0 +1,85 @@
+.wrapperProfile, .containerProfileContent{
+    width: 100%;
+}
+
+.wrapperProfile{
+    padding: 0 7rem;
+    margin-top: 3rem;
+}
+
+.containerProfileContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileHeader{
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: .5;
+    line-height: 1.15;
+    font-family: var(--second-font);
+    color: var(--main-color);
+}
+
+.containerProfileContent p{
+    margin-top: 2rem;
+    text-align: left;
+    font-family: var(--second-font);
+    font-size: 20px;
+}
+
+.thisBold{
+    font-weight: 600;
+}
+
+.wrapperCard{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.cardProfile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgProfile{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    object-fit: cover;
+    backface-visibility: hidden;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.middleOverlay{
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    object-fit: cover;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.cardProfile:hover .middleOverlay{
+    opacity: .2;
+}
+
+.cardProfile:hover .imgProfile{
+    transform: scale(1.05);
+}

@@ -1,0 +1,98 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  background-color: var(--second-gray-color);
+}
+
+.titleGuest {
+  text-align: center;
+  color: var(--background-color);
+  font-family: var(--alexBrush-font);
+  font-size: var(--mid-head-font);
+  line-height: 76px;
+  font-weight: 400;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--background-color);
+  font-family: var(--nunito-font);
+  font-size: var(--mid-text-font);
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.listItemText {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.titleName,
+.message {
+  font-family: var(--nunito-font);
+  color: var(--background-color);
+}
+
+.titleName {
+  font-size: var(--mid-text-font);
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.message {
+  font-size: var(--text-font);
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.input {
+  width: 100%;
+  background-color: transparent;
+  color: var(--background-color);
+  font-size: var(--mid-text-font);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--background-color);
+  padding: 1rem 0;
+}
+
+.input::placeholder {
+  color: var(--background-color);
+}
+
+.btnSubmit {
+  width: 105px;
+  height: 40px;
+  margin: 2rem 0;
+  background-color: transparent;
+  border: 2px solid var(--background-color);
+  border-radius: 20px;
+  color: var(--background-color);
+  font-family: var(--nunito-font);
+  font-size: var(--text-font);
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background-color: var(--background-color);
+  color: var(--second-gray-color);
+  transition: all ease-in-out 0.2s;
+}

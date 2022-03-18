@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.img {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.rowCouple {
+  padding-top: 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.coupleName {
+  font-family: var(--alexBrush-font);
+  color: var(--fff-color);
+  font-weight: 400;
+  font-size: var(--head-font);
+  line-height: 90px;
+}
+
+.descOne {
+  font-family: var(--cormorantSC-font);
+  color: var(--fff-color);
+  font-weight: 700;
+  font-size: var(--second-head-font);
+  line-height: 34px;
+  letter-spacing: 0.1em;
+}
+
+.descTwo {
+  font-family: var(--nunito-font);
+  color: var(--fff-color);
+  font-weight: 800;
+  font-size: var(--text-font);
+  line-height: 19px;
+  letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 776px) {
+    .coupleName{
+        line-height: 78px;
+    }
+
+    .descOne{
+        line-height: 30px;
+        letter-spacing: 0.08;
+    }
+
+    .descTwo{
+        line-height: 17px;
+        letter-spacing: 0.13;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .coupleName{
+        line-height: 68px;
+    }
+
+    .descOne{
+        line-height: 26px;
+        letter-spacing: 0.08;
+    }
+
+    .descTwo{
+        line-height: 16px;
+        letter-spacing: 0.12;
+    }
+}
