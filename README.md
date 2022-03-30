@@ -6,7 +6,7 @@ Aplikasi Next.Js dan Node.Js yang berfungsi sebagai undangan pernikahan virtual.
 
 ![image](https://user-images.githubusercontent.com/70563202/160806778-59e086fe-5e0e-4c0a-888b-75237c60a535.png)<br/><br />
 
-<h1>2. Get the Code</h1>
+<h3>2. Get the Code</h1>
 
 ```bash
    $ git clone https://github.com/sabrinaskaa/wedding-web.git
@@ -14,7 +14,7 @@ Aplikasi Next.Js dan Node.Js yang berfungsi sebagai undangan pernikahan virtual.
    $ npm install
 ``` 
 
-<h1>3. Run the Code</h1>
+<h3>3. Run the Code</h1>
 On wedding-web/wedding terminal, run this :
 
 ```bash
@@ -27,7 +27,7 @@ On wedding-web/mern-stack-api terminal, run this :
    $ nodemon index.js
 ```
 
-<h1>4. Mongodb Compass</h1>
+<h3>4. Mongodb Compass</h1>
 
 Connect your mongdb compass : <br /><br />
 
