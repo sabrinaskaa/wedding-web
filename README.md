@@ -1,5 +1,7 @@
 # wedding-web
 
+Aplikasi Next.Js dan Node.Js yang berfungsi sebagai undangan pernikahan virtual. Mengenai fiturnya, terdapat beberapa fitur. diantaranya terdapat waktu hitung mundur, lokasi, album, dan journal pernikahan untuk meninggalkan pesan atau kesan tamu undangan.
+
 <h1>1. Install Mongodb</h1> <br />
 
 ![image](https://user-images.githubusercontent.com/70563202/160806778-59e086fe-5e0e-4c0a-888b-75237c60a535.png)<br/><br />
