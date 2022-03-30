@@ -1,8 +1,7 @@
 # wedding-web
 
 <h1>1. Install Mongodb</h1> <br />
-![image](https://user-images.githubusercontent.com/70563202/160806778-59e086fe-5e0e-4c0a-888b-75237c60a535.png)
-<br/><br />
+![image](https://user-images.githubusercontent.com/70563202/160806778-59e086fe-5e0e-4c0a-888b-75237c60a535.png)<br/><br />
 
 <h1>2. Get the Code</h1>
 
